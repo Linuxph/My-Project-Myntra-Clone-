@@ -13,7 +13,7 @@ header{
     align-items: center;
     box-shadow: 10px 5px 5px #f6f6f6;
     color: #282c3f;
-    
+    width: 100%;
 }
 
 .myntra_home{
@@ -35,44 +35,6 @@ header{
     
 }
 
-/*
-#men{
-    height: 62px;
-    width: 80px;
-    padding: 0 17px 28px;
-    align-items: center;
-}
-
-.women{
-    height: 62px;
-    width: 80px;
-    padding: 0 17px 28px;
-}
-
-.kids{
-    height: 64px;
-    width: 80px;
-    padding: 0 17px 28px;
-}
-
-.homel{
-    height: 131px;
-    width: 80px;
-    padding: 0 17px 28px;
-}
-
-.beauty{
-    height: 84px;
-    width: 80px;
-    padding: 0 17px 28px;
-}
-
-.studio{
-    height: 90px;
-    width: 80px;
-    padding: 0 17px 28px;
-}
-*/
 .nav-bar a{
     text-decoration: none;
     font-size: 14px;
@@ -212,22 +174,26 @@ h6{
 
 .crousel .commondiv{
     display: flex;
+    width: 100%;
     
 }
 
 .couponcards{
     display: flex;
+    width: 100%;
 }
 
 .categories{
     display: flex;
     flex-wrap: wrap;
+    width:100%;
     justify-content: center ;
 }
 
 .victoryoffers{
     display: flex;
     flex-wrap: wrap;
+    width:100%;
 }
 
 .victoryoffers img{
@@ -238,7 +204,7 @@ h6{
 .categories{
     display: flex;
     flex-wrap: wrap;
-    
+    width:100%;
 }
 
 .categories img{
@@ -260,6 +226,7 @@ h6{
     background-color: #FAFBFC;
     color: #696b79;
     padding-left: 10%;
+    width: 100%;
 }
 
 .footer_container{
