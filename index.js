@@ -182,9 +182,11 @@ function bagitem() {
 function callslider() {
     document.querySelector('.slider').style.left = '0%'
     document.querySelector('.shadow').style.left = '51%'
+    document.body.style.overflow = 'hidden';
 }
 
 function back() {
     document.querySelector('.slider').style.left = '-50%';
     document.querySelector('.shadow').style.left = '-50%';
+    document.body.style.overflow = 'auto';
 }
