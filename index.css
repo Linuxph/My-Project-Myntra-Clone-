@@ -190,6 +190,7 @@ header{
     position: absolute;
     left: -80%;
     transition: .4s;
+    z-index:9999;
 }
 
 .slider li{
