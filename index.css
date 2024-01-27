@@ -185,10 +185,10 @@ header{
 
 .slider{
     background-color: #ffffff;
-    width: 50%;
+    width: 80%;
     height: 100%;
     position: absolute;
-    left: -50%;
+    left: -80%;
     transition: .4s;
 }
 
@@ -213,11 +213,11 @@ header{
 
 .shadow{
     height: 100%;
-    width: 50%;
+    width: 100%;
     background-color: #8c8fa0;
     opacity: 0.2;
     position: absolute;
-    left: -50%;
+    left: -100%;
 }
 
 .crousel .commondiv{
