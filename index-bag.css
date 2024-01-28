@@ -174,12 +174,12 @@ header{
 
 .slider{
     background-color: #ffffff;
-    width: 50%;
+    width: 80%;
     height: 100%;
     position: absolute;
-    left: -50%;
+    left: -80%;
     transition: .4s;
-    z-index: 999;
+    z-index: 9999;
 }
 
 .slider li{
@@ -192,14 +192,22 @@ header{
     padding: 20px 24px;
 }
 
+.slider a{
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: .3px;
+    color:  #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
 .shadow{
     height: 100%;
-    width: 50%;
+    width: 100%;
     background-color: #8c8fa0;
     opacity: 0.2;
     position: absolute;
-    left: -50%;
-    z-index: 999;
+    left: -100%;
 }
 
 
